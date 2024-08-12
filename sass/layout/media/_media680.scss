@@ -1,0 +1,74 @@
+@media (max-width: 680px) {
+    h1{
+        font-size: 3.125rem;
+        justify-content: center;
+        align-content: center;
+        height: 7rem;
+    }
+    .grid {
+        margin-top: 3.75rem;
+        grid-template-columns: repeat(2,9.375rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 8rem;
+    }   
+    .grid-form{
+        grid-template-columns: repeat(3,9.375rem);
+        grid-template-rows: 5rem 12.5rem;
+        justify-items: center;
+        align-items: center;
+        width: 100%; 
+        max-width: 75rem;
+    }
+    label {
+        display: block; 
+        margin-bottom: 0.5rem; 
+        font-size: .5625rem;
+    }
+    input { 
+        width: 90%; 
+        padding: .625rem; 
+        font-size: .5625rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .section-2{
+        h3{
+            font-size: 1.25rem;
+        }
+        p{
+            font-size: .9375rem;
+        }
+    }
+    .section-f2 h3{
+        font-size: .9375rem;
+    }
+    .section-f3 h3{
+        font-size: .9375rem;
+    }
+    .section-f4 h3{
+        font-size: .9375rem;
+    }
+    footer{
+        height: 6rem;
+        margin-top: 6.25rem;
+        justify-content: end;
+        align-content: end;
+    }
+    .link-twitter{
+        height: 3.4375rem;
+        width: 3.4375rem;
+    }
+    .link-instagram{
+        height: 3.4375rem;
+        width: 3.4375rem;
+    }
+    .link-faceboock{
+        height: 3.4375rem;
+        width: 3.4375rem;
+    }
+    footer a img{
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,85 @@
+@media (max-width: 620px){
+    .img-precentacion{
+        height: 7rem;
+        width: 12.5rem;
+    }
+    .section-2{
+        p {
+            font-size: .625rem;
+        }
+    }
+    .section-3{
+        h2{
+            font-size: 1.25rem;
+        }
+        p {
+            font-size: .8125rem;
+        }
+    }
+    .section-6{
+        h2{
+            font-size: 1.25rem;
+        }
+        p {
+            font-size: .8125rem;
+        }
+    }
+    .section-7{
+        h2{
+            font-size: 1.25rem;
+            margin-top: -1.5rem;
+        }
+        p {
+            font-size: .8125rem;
+        }
+    }
+    .section-9{
+        h2{
+            font-size: 1.5625rem;
+        }
+    }
+    .section-10{
+        p{
+            font-size: 1rem;
+        }
+    }
+    .section-11{
+        p{
+            font-size: 1rem;
+        }
+    }
+    .section-12{
+        p{
+            font-size: 1rem;
+        }
+    }
+    .section-13{
+        p{
+            font-size: 1rem;
+        }
+    }
+    .grid{
+        margin-top: 4rem;
+        grid-template-rows: 9.375rem;
+    }
+    .grid-1{
+        margin-top: 3.5rem;
+        grid-template-rows: repeat(2,7.5rem);
+    }
+    .grid-2{
+        margin-top: 3.5rem;
+        grid-template-rows: repeat(2,7.5rem);
+    }
+    .grid-3{
+        margin-top: 3.5rem;
+        grid-template-rows: repeat(2,7.5rem);
+    }
+    .grid-4{
+        margin-top: 4.0625rem;
+        grid-template-columns: 18.75rem;
+        grid-template-rows: repeat(5,2rem);
+    }
+    .footer{
+        margin-top: 4.375rem;
+    }
+}

@@ -1,0 +1,98 @@
+.section-1{
+    grid-area: section-1;
+}
+.section-2{
+    grid-area: section-2;
+    h2{
+        font-size: 1.875rem;
+    }
+    p {
+        font-size: 1.493rem;
+    }
+}
+.section-3{
+    grid-area: section-3;
+    h2{
+        margin-bottom: 2.5rem;
+        font-size: 2.1875rem;
+    }
+    p{
+        font-size: 1.875rem;
+    }
+}
+.section-4{
+    grid-area: section-4;
+}
+.section-5{
+    grid-area: section-5;
+}
+.section-6{
+    grid-area: section-6;
+    h2{
+        margin-bottom: 2.5rem;
+        font-size: 2.1875rem;
+    }
+    p{
+        font-size: 1.875rem;
+    }
+}
+.section-7{
+    grid-area: section-7;
+    margin-top: 1.5625rem;
+    h2{
+        margin-bottom: 2rem;
+        font-size: 2.1500rem;
+    }
+    p{
+        font-size: 1.875rem;
+    }
+}
+.section-8{
+    grid-area: section-8;
+}
+.section-f1{
+    grid-area: section-f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 6.25rem;
+    }
+}
+.section-f2{
+    grid-area: section-f2;
+}
+.section-f3{
+    grid-area: section-f3;
+}
+.section-f4{
+    grid-area: section-f4;
+}
+.section-f5{
+    grid-area: section-f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3{
+        font-size: 2.8125rem;
+        margin-bottom: 6rem;
+    }
+}
+.section-f6{
+    grid-area: section-f6;
+    h4{
+        font-size: 1.875rem;
+        text-align: center;
+        margin-bottom: 3.125rem;
+    }
+}
+.section-f7{
+    grid-area: section-f7;
+    h4{
+        font-size: 1.875rem;
+        text-align: center;
+        margin-bottom: 3.125rem;
+    }
+}

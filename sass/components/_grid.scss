@@ -1,0 +1,105 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 15.625rem;
+    margin-top: 9.375rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-1 section-2 section-2";
+    margin-left: 10rem;
+    margin-right: 10rem;
+    column-gap: 1.25rem;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,15.625rem);
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-3 section-3 section-3 section-4"
+    "section-3 section-3 section-3 section-4" 
+    ;
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,15.625rem);
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-5 section-6 section-6"
+    "section-5 section-6 section-6" ;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    column-gap: 1.25rem;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,12.5rem);
+    margin-top: 6.25rem;
+    justify-content: center;
+    grid-template-areas: 
+    "section-7 section-7 section-7 section-8"
+    "section-7 section-7 section-7 section-8"  ;
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 37.5rem;
+    grid-template-rows: repeat(5,2.8125rem);
+    margin-top: 9.375rem;
+    align-content: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-9"
+    "section-10"
+    "section-11"
+    "section-12"
+    "section-13"
+    ;
+    text-align: center;
+    p{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.875rem;
+    }
+}
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(3,12.5rem);
+    grid-template-rows: 5rem 12.5rem;
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-f1 section-f1 section-f1"
+    "section-f2 section-f3 section-f4" 
+    ;
+    gap: 1rem; 
+    width: 100%; 
+    max-width: 120rem;
+}
+.grid-form-2{
+    display: grid;
+    grid-template-columns: repeat(2,18.75rem);
+    grid-template-rows: 5rem 12.5rem;
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-f5 section-f5"
+    "section-f6 section-f7" 
+    ;
+    gap: 3rem; 
+    width: 100%; 
+    max-width: 120rem;
+}

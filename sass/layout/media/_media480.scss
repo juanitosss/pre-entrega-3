@@ -1,0 +1,87 @@
+@media (max-width: 480px) {
+    h1{
+        height: 4.6875rem;
+        font-size: 1.875rem;
+    }
+    .grid {
+        margin-top: 7rem;
+        grid-template-columns: repeat(2,1.5625rem);
+        grid-template-rows: 6.25rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 8rem;
+    }    
+    .section-2{
+        h3{
+            font-size: .8125rem;
+        }
+        p{
+            font-size: .4375rem;
+        }
+    }
+    .img-precentacion{
+        height: 4.6875rem;
+        width: 7.8125rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,5rem);
+        grid-template-rows: 3.125rem 7.5rem;
+        width: 100%; 
+        max-width: 75rem;
+        margin-top: 1.25rem;
+        margin-bottom: 5rem;
+        form {
+            margin-bottom: .0625rem;
+            margin-top: .0625rem;
+        }
+    }
+    label {
+        display: block; 
+        margin-top: .3125rem; 
+        font-size: .4375rem;
+    }
+    input { 
+        width: 100%; 
+        padding: .625rem; 
+        font-size: .5625rem;
+        margin-top: .0625rem;
+    }
+    .navbar{
+        height: 3.125rem;
+    }
+    .section-f1 h2{
+        font-size: 1.25rem;
+        margin-bottom: .625rem;
+    }
+    .section-f2 h3{
+        font-size: .5rem;
+    }
+    .section-f3 h3{
+        font-size: .5rem;
+    }
+    .section-f4 h3{
+        font-size: .5rem;
+    }
+    footer{
+        margin-top: 5rem;
+    }
+    .card{
+        width: 7rem;
+        height: 12rem;
+        margin-top: 30px;
+        margin-left:  2rem;
+        margin-right: 2rem;
+        .card-info {
+            h3{
+                font-size: .75rem;
+            }
+            button {
+                padding: 3px 3px;
+            }
+            p {
+                margin-left: 2px;
+                font-size: .9375rem;
+            }
+    }
+}
+}

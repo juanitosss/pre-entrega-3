@@ -1,0 +1,58 @@
+
+@media (max-width: 790px) {
+    .grid {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 1rem;
+    }
+    .section-2{
+        h2{
+            font-size: .9375rem;
+        }
+        p{
+            font-size: .75rem;
+        }
+    }
+    .img-precentacion{
+        height: 9.375rem;
+        width: 15.625rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,150p);
+        grid-template-rows: 5rem 12.5rem;
+        width: 100%; 
+        max-width: 100rem;
+    }
+    .section-f1 h2{
+        font-size: 1.875rem;
+    }
+    label {
+        display: block; 
+        margin-bottom: 0.5rem; 
+        font-size: .875rem;
+    }
+    input {
+        width: 100%; 
+        padding: 1rem; 
+        font-size: .875rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .link-twitter{
+        height: 4.375rem;
+        width: 4.375rem;
+    }
+    .link-instagram{
+        height: 4.375rem;
+        width: 4.375rem;
+    }
+    .link-faceboock{
+        height: 4.375rem;
+        width: 4.375rem;
+    }
+    .navbar li a{
+        font-size: 1.4375rem;
+    }
+}

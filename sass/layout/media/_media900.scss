@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(3,9.375rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 12rem;
+    }
+    .img-precentacion{
+        height: 12.5rem;
+        width: 18.75rem;
+    }
+}

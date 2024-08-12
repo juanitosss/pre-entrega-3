@@ -1,0 +1,57 @@
+@media (max-width: 360px){
+    .section-2{
+        h2{
+            font-size: .6875rem;
+            margin-bottom: .3125rem;
+        }
+        p {
+            font-size: .5rem;
+        }
+    }
+    .section-3{
+        h2{
+            font-size: .6875rem;
+            margin-bottom: .3125rem;
+        }
+        p {
+            font-size: .5rem;
+        }
+    }
+    .section-6{
+        h2{
+            font-size: .6875rem;
+            margin-bottom: .3125rem;
+        }
+        p {
+            font-size: .5rem;
+        }
+    }
+    .section-7{
+        h2{
+            font-size: .6875rem;
+            margin-bottom: .3125rem;
+        }
+        p {
+            font-size: .5rem;
+        }
+    }
+    .grid{
+        grid-template-rows: 5.625rem;
+    }
+    .grid-1{
+        grid-template-rows: repeat(2,5.625rem);
+    }
+    .grid-2{
+        grid-template-rows: repeat(2,5.625rem);
+    }
+    .grid-3{
+        grid-template-rows: repeat(2,5.625rem);
+    }
+    .grid-4{
+        margin-bottom: 1.875rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        height: 6.25rem;
+    }
+}

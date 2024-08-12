@@ -1,0 +1,41 @@
+@import "./utilities/variables.scss";
+@import "./utilities/mixins";
+
+@import "./base/reset";
+@import "./base/tipografia";
+
+@import "./layout/footer";
+@import "./layout/hader";
+@import "./layout/main";
+
+@import "./components/.section";
+@import "./components/button";
+@import "./components/card";
+@import "./components/card1";
+@import "./components/card2";
+@import "./components/formulario";
+@import "./components/grid";
+
+@import "./layout/media/media1250";
+@import "./layout/media/media1150";
+@import "./layout/media/media1090";
+@import "./layout/media/media1020";
+@import "./layout/media/media950";
+@import "./layout/media/media850";
+@import "./layout/media/media730";
+@import "./layout/media/media620";
+@import "./layout/media/media550";
+@import "./layout/media/media460";
+@import "./layout/media/media360";
+@import "./layout/media/media330";
+
+
+@import "./layout/media/media1086";
+@import "./layout/media/media900";
+@import "./layout/media/media840";
+@import "./layout/media/media790";
+@import "./layout/media/media680";
+@import "./layout/media/media650";
+@import "./layout/media/media514";
+@import "./layout/media/media480";
+@import "./layout/media/media350";

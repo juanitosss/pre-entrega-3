@@ -1,0 +1,21 @@
+@media (max-width: 1090px) {
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 15.625rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        column-gap: 1.25rem;
+    }
+    .img-precentacion{
+        height: 12rem;
+        width: 21rem;
+    }
+    .section-7{
+        h2{
+            font-size: 2.1500rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}

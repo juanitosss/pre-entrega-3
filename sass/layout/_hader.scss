@@ -1,0 +1,33 @@
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 4.6875rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: $colornavbar;
+    li a{
+        color: black;
+        font-size: 1.625rem;
+    }
+    li a:hover{
+        color: $colorletrasnav;
+    }
+}
+nav ul li{
+    display: inline;
+}
+header nav ul{
+    text-align: center;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/29/8f/da/298fdab6747599714130d5670b81ceee.png");
+    text-align: center;
+    align-content: center;
+    text-transform: capitalize;
+    font-size: 85px;
+    height: 9.375rem;
+    width: 100%;
+    margin-bottom: -0.0625rem;
+}

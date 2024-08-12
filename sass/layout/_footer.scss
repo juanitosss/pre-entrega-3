@@ -1,0 +1,21 @@
+.link-twitter{
+    height: 6.25rem;
+    width: 6.25rem;
+}
+.link-instagram{
+    height: 6.25rem;
+    width: 6.25rem;
+}
+.link-faceboock{
+    height: 6.25rem;
+    width: 6.25rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 8.75rem;
+    background-color: $colorfooter;
+    margin-top: 12.5rem;
+    align-items: center;
+    justify-items: center;
+}

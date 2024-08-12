@@ -1,0 +1,35 @@
+
+@media (max-width: 840px) {
+    .grid {
+        grid-template-columns: repeat(3,8.75rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 12rem;
+    }
+    .section-2 h2{
+        font-size: 1.875rem;
+    }
+    .section-2 p{
+        font-size: 1.25rem;
+    }
+    .card{
+        width: 12rem;
+        height: 16.25rem;
+        margin-top: 40px;
+        margin-left:  3rem;
+        margin-right: 3rem;
+        .card-info {
+            h3{
+                font-size: .9375rem;
+            }
+            button {
+                border-radius: 5px;
+            }
+            p {
+                margin-left: 10px;
+                font-size: 1.3125rem;
+            }
+        }
+    }
+}

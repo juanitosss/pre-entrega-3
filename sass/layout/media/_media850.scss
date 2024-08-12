@@ -1,0 +1,96 @@
+@media (max-width: 850px){
+    .section-2{
+        h2{
+            font-size: 1.4rem;
+        }
+        p {
+            font-size: .9rem;
+        }
+    }
+    .section-3{
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .section-6{
+        h2{
+            font-size: 1.5rem;
+        }
+    p{
+        font-size: 1rem;
+    }
+    }
+    .section-7{
+        h2{
+            font-size: 1.5rem;
+        }
+    p{
+        font-size: 1rem;
+    }
+    }
+    .img-precentacion{
+        height: 9rem;
+        width: 18rem;
+    }
+    .section-9{
+        h2{
+            font-size: 1.9rem;
+        }
+    }
+    .section-10{
+        p{
+            font-size: 1.4rem;
+        }
+    }
+    .section-11{
+        p{
+            font-size: 1.4rem;
+        }
+    }
+    .section-12{
+        p{
+            font-size: 1.4rem;
+        }
+    }
+    .section-13{
+        p{
+            font-size: 1.4rem;
+        }
+    }
+    .grid{
+        margin-top: 7rem;
+        grid-template-rows: 12.5rem;
+        margin-left: 4.6875rem;
+        margin-right: 4.6875rem;
+    }
+    .grid-1{
+        margin-top: 3rem;
+        margin-left: 4.6875rem;
+        margin-right: 4.6875rem;
+        grid-template-rows: repeat(2,10.625rem)
+    }
+    .grid-2{
+        margin-top: 3rem;
+        margin-left: 4.6875rem;
+        margin-right: 4.6875rem;
+        grid-template-rows: repeat(2,10.625rem)
+    }
+    .grid-3{
+        margin-top: 3rem;
+        margin-left: 4.6875rem;
+        margin-right: 4.6875rem;
+        grid-template-rows: repeat(2,10.625rem);
+    }
+    .grid-4{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .navbar{
+        li a{
+            font-size: 1.25rem;
+        }
+    }
+}
