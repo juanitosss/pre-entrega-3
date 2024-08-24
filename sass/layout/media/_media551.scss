@@ -1,0 +1,47 @@
+@media (max-width: 550px){
+    .adopcion{
+        img{
+            height: 12.5rem;
+            width: 25rem;
+            margin-bottom: -3.125rem;
+        }
+    }
+    .section-adopcion{
+        h2{
+            font-size: 2rem;
+        }
+    }
+    .card-1{
+        width: 10.625rem;
+        height: 20rem;
+        background-color: rgb(252, 252, 252);
+        border-radius: 10px;
+        box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.726);
+        margin: 1.875rem;
+        .card-img-1{
+            width: 100%;
+            height: 60%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: inherit;
+                border-radius: .625rem;
+            }
+        }
+        .card-info-1 {
+            h3{
+                margin-bottom: .0625rem
+            }
+            @include flex;
+            width: 100%;
+            height: 35%;
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                font-size: .9375rem;
+            }
+        }
+    }
+}

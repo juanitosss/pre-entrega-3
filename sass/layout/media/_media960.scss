@@ -1,0 +1,28 @@
+@media (max-width: 960px){
+    .card-2{
+        width: 12.5rem;
+        height: 23.75rem;
+        background-color: rgb(252, 252, 252);
+        border-radius: 10px;
+        box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.726);
+        margin-left: 4.375rem;
+        margin-right: 4.375rem;
+        }
+        .grid-form-2{
+            form{
+                margin-top: 2.5rem;
+            }
+            label {
+                display: block; 
+                margin-bottom: 0.5rem; 
+                font-size: 3rem;
+            }
+            input {
+                width: 100%; 
+                padding: 1rem; 
+                font-size: .7rem;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+}

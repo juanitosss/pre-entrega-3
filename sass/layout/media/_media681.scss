@@ -1,0 +1,21 @@
+@media (max-width: 681px){
+    .card-2{
+        width: 11rem;
+        height: 19rem;
+        margin: 1.6rem;
+        .card-img-2{
+            width: 100%;
+            height: 70%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: scale-down;
+                border-radius: .625rem;
+            }
+        }
+    }
+    .grid-form-2{
+        grid-template-columns: repeat(2,15.625rem);
+        grid-template-rows: 5rem 12.5rem;
+    }
+}

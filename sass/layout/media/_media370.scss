@@ -1,0 +1,45 @@
+@media (max-width: 370px){
+    .adopcion{
+        img{
+            height: 8.125rem;
+            width: 18.75rem;
+            margin-bottom: -3.125rem;
+        }
+    }
+    .section-adopcion{
+        h2{
+            font-size: 2rem;
+        }
+    }
+    .card-1{
+        width: 8.125rem;
+        height: 13.75rem;
+        margin-left: .1rem;
+        margin-right: .1rem;
+        .card-img-1{
+            width: 100%;
+            height: 60%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: inherit;
+                border-radius: .625rem;
+            }
+        }
+        .card-info-1 {
+            h3{
+                margin-bottom: .0625rem
+            }
+            @include flex;
+            width: 100%;
+            height: 35%;
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                font-size: .625rem;
+            }
+        }
+    }
+}
